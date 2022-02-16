@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: --bs-font-monospace;
+}
+main{
+	min-height: calc(100vh - 150px);
+}
+footer{
+	min-height: 120px;
+}
+
+#education-wrapper{
+	background-image: url(../imgs/main-picture.jpg);
+	height: 816px;
+	background: cover;
+	background-position: center;
+	position: relative;
+}
+#education-section{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 45%;
+	right: 0;
+	opacity: 0.4;
+}
+
+#education-section-text{
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	color: white;
+}
+
+#education-section-text  h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+	margin-bottom: 30px;
+	
+}
+section{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+h3{
+	text-align: center;
+
+}
+#education-section-text p{
+	font-size: 1.2em;
+	margin-left: .25rem;
+}
+.container-wrapper{
+	position: relative;
+	box-sizing: border-box;
+	padding: 3rem 3rem ;
+}
+
+.btn-type-1{
+	align-self: flex-start;
+	margin-left: .25rem;
+	margin-bottom: .25rem;
+}
+#section-1 img{
+	width: 80%;
+	aspect-ratio: 10/7;
+	position: relative;
+	left: 10%;
+}
+#footer-main-section{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+.card{
+	margin: 0;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#form{
+	display: flex;
+	justify-content: center;
+}
+#subscribe{
+	display: flex;
+	justify-content: center;
+}
+#nav{
+	display: flex;
+	justify-content: center;
+}
